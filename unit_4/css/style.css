@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:300,700');
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+h1{
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 0;
+	padding-top: 80px;
+	}
+p{
+	margin-top: 0
+	color: #f2f2f2;
+	}
+h3{
+	font-size: 15px;
+	line-height: 1.5em;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #E92681;
+	}
+hr{width: 300px;
+}
+ul {
+  list-style-type: none;
+  padding-left:0;
+  color: #FF4100;
+}
+h4{
+	font-size: 15px;
+	color: #FF4100;
+	text-transform: uppercase;
+}
+#slogan{
+	font-style: regular;
+	font-size: 40px;
+	color: #55007D;
+}
+#description{
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #000000;
+}
