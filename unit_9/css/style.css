@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:300,700');
+body{
+  font-family:'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+header {
+  background-image: url("http://blog.laurelandwolf.com/wp-content/uploads/2015/02/Romantic-LR.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  border-bottom: 2em solid rgba(250, 175, 239, 0.5);;
+  padding: 1em 0em 2em;
+}
+nav {
+  background-color: pink;
+  height: 2em;
+  padding-top: 0em;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding: .625em 0;
+}
+li {
+  display: inline;
+  color: black;
+}
+h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 5.6em;
+  line-height: 1.15em;
+  padding-top: 0;
+  color: #000000;
+}
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-top: -2em;
+  padding-bottom: .625em;
+  background-color: white;
+  color: #000000;
+  width: 156px;
+  display: block;
+  margin: -1.6em auto 0;
+}
+div {
+  padding: 25px;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  color: black;
+}
+footer {
+  background-color: pink;
+}
+footer a{
+  color: #000000;
+}
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+#intro {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+}
+#name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #000000;
+  float: left;
+  padding-left: 1em;
+}
+#container {
+  width: 85%;
+  padding: 0 0 2.5em 0;
+  margin: 0 auto;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.links {
+  float: right;
+  padding-right: 1.5em;
+  color: #ffffff;
+}
+.business {
+  width: 22%;
+  float: left;
+  margin: 2%;
+}
+.footer {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+  padding: 0em 3em;
+  color: #000000;
+  width: 100%;
+}
+@media only screen and (min-width: 481px) and (max-width: 3000px){
+  .mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1100px){
+  body {
+    font-size: 14px;
+  }
+  #intro {
+    width: 60%;
+    padding: 0;
+  }
+  #container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .business {
+    width: 20%;
+    float: left;
+    margin: 3%
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 950px){
+  #container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .business {
+    width: 30%;
+    float: left;
+    margin: 3%
+  }
+  .footer {
+    padding: 1em;
+  }
+}
+@media only screen and (max-width: 650px){
+  #name {
+    font-size: 2em;
+    float: none;
+    padding-left: 0em
+  }
+  header {
+    background-image: none;
+  }
+  #container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .business {
+    width: 35%;
+    float: left;
+    margin: 3%
+  }
+  .footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: .5em;
+  }
+}
+@media only screen and (max-width: 480px){
+  li {
+    display: block;
+    line-height: 2em;
+    float: none;
+    background-color: pink;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    padding: 0;
+    color: #000000;
+  }
+  header {
+    background-image: none;
+    padding-bottom: 1em;
+  }
+  nav {
+    background-color: pink;
+    height: 0em;
+    padding-top: 0em;
+  }
+  h1 {
+    padding: 1.2em 0 0 0;
+  }
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 2em;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 25);
+    width: 100%;
+    display: inline-block;
+    margin-top: -1em;
+  }
+  #mobile_header {
+    font-size: 2em;
+    padding: 0em 0em 2em 0em;
+    line-height: 0em;
+  }
+  #container {
+  display: none;
+  }
+  .links {
+    font-size: 1em;
+    float: none;
+    display: inline;
+    text-align: center;
+    background-color: rgba(255,0,255, .02);
+    padding: .5em .7em;
+    line-height: 4em;
+  }
+  .business {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    padding: 0 0 2.4em 0;
+  }
+  .footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: .5em 0 .5em 0;
+  }
+}
