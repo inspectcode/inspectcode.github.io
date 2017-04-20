@@ -10,6 +10,7 @@ header {
   background-image: url("http://blog.laurelandwolf.com/wp-content/uploads/2015/02/Romantic-LR.jpg");
   background-size: cover;
   width: 100%;
+  height: 400px;
   background-position: center;
   margin: 0 auto;
   margin-bottom: 5em;
